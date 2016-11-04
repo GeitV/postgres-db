@@ -12,7 +12,7 @@ Then, you can run the runnable jar from commandline using `java -jar postgres-db
 
 And now you are up and running
 
-This will launch tomcat on port `8888`
+This project runs on port `8888`
 
 ##Adding data
 
@@ -20,6 +20,7 @@ You can add `data` to DB using POST method, accepted input method is JSON.
 For adding data you need to POST to `/data`.
 
 For example, you have this running locally and you want to POST "custom data". For this you send `{ "data": "custom data" }` to http://localhost:8888/data
+
 Nothing will be returned
 
 ##Searching data
@@ -28,6 +29,7 @@ You can search `data` table for strings that have common value as `search` termi
 For finding data you need to GET from `/data` with value `search`.
 
 For example, when running on localhost, we can use http://localhost:8888/data?search=mydata
+
 The data returned is in JSON
 
 ##Removing data
@@ -35,4 +37,9 @@ The data returned is in JSON
 You can remove `data` from table using `/data/remove` with value `remove`. The string must match exactly.
 
 For example, when running on localhost, you could remove data using http://localhost:8888/data/remove?remove=mydata
+
 Nothing will be returned
+
+##Extra info
+
+This project will generate data table named `data` using Flyway on launch. It also checks if the config file exists, if it doesn't, one will be generated and app will shut down.
