@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="config.SettingsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-11-04T12:13:51" hostname="DESKTOP-TC2FSAV" time="0.001">
+  <properties/>
+  <testcase name="getConnectionUrl" classname="config.SettingsTest" time="0.001"/>
+  <testcase name="getDBPassword" classname="config.SettingsTest" time="0.0"/>
+  <testcase name="getDatabase" classname="config.SettingsTest" time="0.0"/>
+  <testcase name="getPort" classname="config.SettingsTest" time="0.0"/>
+  <testcase name="getDBUser" classname="config.SettingsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

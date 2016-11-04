@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.postgresql:postgresql:9.4.1211">
+    <CLASSES>
+      <root url="jar://C:/PokemonGoBot/PokemonGoBot/gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/9.4.1211/721e3017fab68db9f0b08537ec91b8d757973ca8/postgresql-9.4.1211.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://C:/PokemonGoBot/PokemonGoBot/gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/9.4.1211/26961f028c1452d862f1c281aede9e0f7e39dc/postgresql-9.4.1211-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="database.connection.CommunicationControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-11-04T12:13:51" hostname="DESKTOP-TC2FSAV" time="0.139">
+  <properties/>
+  <testcase name="removeFromTable" classname="database.connection.CommunicationControllerTest" time="0.101"/>
+  <testcase name="addToTableAndFindIt" classname="database.connection.CommunicationControllerTest" time="0.037"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
